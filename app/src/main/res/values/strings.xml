@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EstimationWeekEnd</string>
+    <string name="titre">Envie de changer d\'air ?\n Estimation coût d\'un week-end\n prolongé ou pas !</string>
+    <string name="nbJours">Nombre de jours :</string>
+    <string name="budgTransport">Budget transport :</string>
+    <string name="budgNuit">Budget par nuit :</string>
+    <string name="budgRepas">Budget par repas :</string>
+    <string name="inclRepas">inclure 2ème repas dernier jour</string>
+    <string name="budgVisit">Budget visite/sortie par jour :</string>
+    <string name="estimationCout">Estimation du coût :</string>
+
+    <!-- Textes relatifs aux placeholder -->
+    <string name="allerRetour">aller-retour</string>
+    <string name="avecPtitDeg">avec petit-déj</string>
+    <string name="prixMoyenRepas">prix moyen repas</string>
+    <string name="visiteExtras">visite / extra</string>
+    <string name="resultat">Résultat calculé</string>
+    <string name="calculer">Calculer</string>
+    <string name="annuler">Annuler</string>
+</resources>

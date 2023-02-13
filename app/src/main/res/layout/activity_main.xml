@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="1,2"
+    >
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titre"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#72a0ce"
+            android:layout_span="3"
+            />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+
+
+        />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/nbJours"
+            />
+    </TableRow>
+
+    <TableRow>
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_span="3"
+            android:gravity="center"
+            >
+
+            <RadioButton
+                android:text="2"
+                />
+            <RadioButton
+                android:text="3"
+                />
+            <RadioButton
+                android:text="4"
+                />
+            <RadioButton
+                android:text="5"
+                />
+
+
+        </RadioGroup>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/budgTransport"
+            />
+        <EditText
+            android:layout_column="2"
+            android:text="@string/allerRetour" />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <Button
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:text="@string/calculer" />
+
+        <Button
+            android:layout_height="match_parent"
+            android:layout_column="2"
+            android:text="@string/annuler" />
+
+
+    </TableRow>
+</TableLayout>
